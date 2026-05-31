@@ -34,7 +34,7 @@ sequenceDiagram
         Service-->>Client: Reponse error
     end
 
-    rect rgb(224, 240, 43)
+    rect rgb(193, 198, 251)
         Note over Service,DB: Transaction Begin
             Service->>DB: Begin
             Service->>DB: INSERT user
