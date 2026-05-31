@@ -1,3 +1,27 @@
+- Request Body
+
+```json
+{
+  "userName": "Pom",
+  "limitUser": 10,
+  "discussionTimer": "60s",
+  "voteMode": "Majority",
+  "revealRoleScreen": true,
+  "roles": [
+    {
+      "roleName": "Merlin",
+      "count": 1,
+      "enable": true
+    },
+    {
+      "roleName": "Assassin",
+      "count": 1,
+      "enable": true
+    }
+  ]
+}
+```
+
 ```mermaid
 sequenceDiagram
     participant Client
